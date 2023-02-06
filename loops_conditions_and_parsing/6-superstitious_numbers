@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 # gooda and bad luck
 count=1
 while [ $count -le 20 ]
