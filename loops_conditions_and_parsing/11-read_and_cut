@@ -1,4 +1,5 @@
 #/usr/bin/env bash
+# Displaying userid homedir
 filename="/etc/passwd"
 while IFS=: read -r username userid homedir
 do
