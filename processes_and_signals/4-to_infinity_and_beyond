@@ -3,5 +3,5 @@
 # shellcheck disable=SC2009
 while true; do 
 	echo "To infinity and beyond"
-	sleep2
+	echo "sleep2"
 done    					
