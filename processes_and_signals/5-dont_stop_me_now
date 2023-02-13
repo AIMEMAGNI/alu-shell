@@ -3,5 +3,5 @@
 # shellcheck disable=SC2009
 while true; do 
 echo "To infinity and beyond"
-kill -1
+kill -15
 done    					
