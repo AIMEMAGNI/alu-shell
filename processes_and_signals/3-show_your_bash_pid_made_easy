@@ -1,4 +1,4 @@
 #!/usr/bin/env bash                                                                                                             
 # displaying processes                                                                                                          
 # shellcheck disable=SC2009
-ps -l bash
+pgrep -l bash
