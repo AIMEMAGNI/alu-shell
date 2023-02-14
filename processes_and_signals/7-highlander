@@ -1,4 +1,4 @@
-#!/usr/bin/env bash                                                             # displaying ubdefinitely                                                       # shellcheck disable=SC2009
+#!/usr/bin/env bash                                                             # displaying ubdefinitely                                                      
 trap 'echo"I am invincible!!!"' 15
 while true; do 
 echo "To infinity and beyond"
