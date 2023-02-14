@@ -1,7 +1,5 @@
-#!/usr/bin/env bash                                                                                                             
-# displaying ubdefinitely                                                                                                    
-# shellcheck disable=SC2009
-while true; do 
+#!/usr/bin/env bash                                                             # displaying ubdefinitely                                                      
+while true; do
 echo "To infinity and beyond"
 kill -15
 done    					
