@@ -1,4 +1,5 @@
-#!/usr/bin/env bash                                                             # displaying ubdefinitely                                                      
+#!/usr/bin/env bash                                                          
+# infinity
 trap 'echo"I am invincible!!!"' 15
 while true; do 
 echo "To infinity and beyond"
