@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 # shit
-kill -9 "$(pgrep -f highlander)"
+id=$(pgrep "bash ./7-highlander" -f)                              
+if [ -n $id ]
+then 
+kill -15 "$id"                                                
+fi 
