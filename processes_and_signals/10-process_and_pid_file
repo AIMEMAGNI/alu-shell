@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# alot
 echo $$ > /var/run/myscript.pid
 trap 'echo"Y U no love me?!"' 2
 trap 'rm /var/run/myscript.pid' 3 15
